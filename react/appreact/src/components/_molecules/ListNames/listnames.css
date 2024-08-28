@@ -1,0 +1,12 @@
+.names-list {
+    margin-top: 20px;
+    width: 20%;
+    padding: 20px;
+    background-color: burlywood;
+
+
+    & ul li {
+        list-style: none;
+        margin-bottom: 20px;
+    }
+}

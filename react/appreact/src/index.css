@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --primary: rgb(0, 150, 243);
+  --errors: rgb(241, 38, 38);
+  --secondary: rgb(108, 205, 241);
+  --floatBlack: rgba(30, 30, 30, 0.49);
+  --floatWhite: rgba(255,255,255,0.2);
+  --floatWhiteBorder: rgba(255,255,255,0.1);
+  --floatblackBoxShadow: rgba(8,7,16,0.6);
+  --floatblackBoxShadowLow: rgba(0, 0, 0, 0.176);
+  --grey: rgb(204, 204, 204);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: 'Poppins',sans-serif;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  letter-spacing: -0.25px;
+}
+
+* {
+  transition: all 2s ease-in-out;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
